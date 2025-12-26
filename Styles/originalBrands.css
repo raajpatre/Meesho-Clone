@@ -1,0 +1,32 @@
+#originalBrands{
+    /* border: 1px solid red; */
+    height: 50vh;
+}
+#originalBrands-margin{
+    /* border: 1px solid red; */
+    margin: 5vw 5vw;
+    height: 45vh;
+}
+#originalBrands-margin #og{
+    display: flex;
+    justify-content: space-between;
+}
+#originalBrands-margin #og img{
+    width: 2.5vw;
+}
+#originalBrands-margin #og span{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    margin: 0vw 1vw;
+}
+
+#originalBrands-margin #og-variety{
+    margin-top: 4vh;
+    overflow: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+#originalBrands-margin #og-variety .cards{
+    display: inline-block;
+}

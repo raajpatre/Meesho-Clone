@@ -1,0 +1,33 @@
+#benefits{
+    background-color: #feeefa;
+    height: 8vh;
+    width: 100vw;
+}
+#benefits div{
+    position: relative;
+    top: 1.5vh;
+    border: 1px solid #eecae8;
+    border-radius: 5px;
+    height: 5vh;
+    margin: 0vw 2vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#benefits div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#benefits div ul li{
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+    margin: 0vw 2vw;
+    font-size: small;
+}
+#benefits div ul li img{
+    width: 1.5vw;
+}

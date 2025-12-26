@@ -1,0 +1,19 @@
+#options ul{
+    box-sizing: border-box;
+    overflow: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+    margin: 0.3vw 2vw;
+    padding: 1vw 0vw 0vw 0vw;
+}
+#options ul li{
+    font-family: 'Nunito';
+    display: inline-block;
+    margin-right: 1vw;
+    height: 4vh;
+}
+#options ul li:hover{
+    border-bottom: 3px solid #8e1677;
+    color: #8e1677;
+    cursor: pointer;
+}

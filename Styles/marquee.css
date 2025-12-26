@@ -1,0 +1,24 @@
+marquee{
+    background-color: #f0e9ff;
+    height: 16vh;
+}
+marquee .cards img{
+    width: 6vw;
+}
+marquee .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 12vw;
+    padding: 2vh 0vw;
+    background-color: white;
+    border:none;
+    margin-left: 2vw;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+marquee .cards:hover{
+    transition: all 0.2s linear;
+    margin-top: 2vh;
+}

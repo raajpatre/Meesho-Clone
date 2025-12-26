@@ -1,0 +1,18 @@
+#categories{
+    /* border: 1px solid red; */
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito';
+    padding: 0vw 6vw;
+}
+#categories .sub-categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#categories .sub-categories p{
+    font-size: small;
+    margin-top: 1vw;
+}

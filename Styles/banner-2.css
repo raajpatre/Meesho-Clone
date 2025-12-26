@@ -1,0 +1,39 @@
+#banner-2{
+    display: grid;
+    grid-template-columns:3fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    background: url("https://images.meesho.com/images/marketing/1744698265981.webp");
+    height: 72vh;
+}
+#banner-2 .Shop{
+    /* border: 1px solid red; */
+    grid-row:span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-2 .Shop button{
+    position: relative;
+    top: 24vh;
+    right: 10vw;
+    height: 8vh;
+    width: 15vw;
+    background-color: #3f1f11;
+    border: 1px solid #ffd182;
+    font-family: sans-serif;
+    font-size: 2vw;
+    /* font-weight: bold; */
+    color: #ffd182;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#banner-2 .banner-sub{
+    /* border: 1px solid red; */
+    padding-left: 1vw;
+    padding-top: 2vh;
+    transition: all 0.2s linear;
+}
+#banner-2 .banner-sub:hover{
+    padding-top: 1vh;
+    transition: all 0.2s linear;
+}
